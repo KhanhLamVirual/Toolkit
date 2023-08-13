@@ -8,7 +8,7 @@ import mindustry.game.EventType;
 import mindustry.mod.Mod;
 import mindustry.ui.dialogs.BaseDialog;
 
-public class TookitMod extends Mod {
+public class ToolkitMod extends Mod {
     @SuppressWarnings("unused")
     public ToolkitMod() {
         Log.info("[UnlockTechTreeMod] Initializing...");
