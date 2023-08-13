@@ -10,7 +10,7 @@ import mindustry.ui.dialogs.BaseDialog;
 
 public class TookitMod extends Mod {
     @SuppressWarnings("unused")
-    public UnlockTechTreeMod() {
+    public ToolkitMod() {
         Log.info("[UnlockTechTreeMod] Initializing...");
 
         Events.on(EventType.ClientLoadEvent.class, e -> {
