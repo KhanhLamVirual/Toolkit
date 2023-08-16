@@ -12,6 +12,7 @@ import mindustry.world.blocks.defense.turrets.Turret;
 
 public class ToolkitMod extends Mod {
     public ToolkitMod() {
+        Vars.state.rules.reactorExplosions = false;
         Timer.schedule(() -> {
             if (Vars.state.getState() != State.playing) {
                 return;
