@@ -36,6 +36,6 @@ public class ToolkitMod extends Mod {
                     }
                 }
             });
-        }, 0.0f, 0.0f);
+        }, 0.0f, 0.1f);
     }
 }
